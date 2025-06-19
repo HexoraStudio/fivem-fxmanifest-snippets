@@ -2,7 +2,8 @@
   "name": "fivem-fxmanifest-snippets",
   "displayName": "Fivem FXManifest Snippets",
   "description": "Snippets for fxmanifest.lua in FiveM",
-  "version": "0.0.1",
+  "version": "0.1.1",
+  "logo": "logo.png",
   "engines": {
     "vscode": "^1.101.0"
   },
@@ -13,9 +14,15 @@
   "languages": [
     {
       "id": "fxmanifest",
-      "aliases": ["fxmanifest"],
-      "extensions": [".lua"],
-      "filenames": ["fxmanifest.lua"],
+      "aliases": [
+        "fxmanifest"
+      ],
+      "extensions": [
+        ".lua"
+      ],
+      "filenames": [
+        "fxmanifest.lua"
+      ],
       "configuration": "./language-configuration.json"
     }
   ],
@@ -37,14 +44,19 @@
     "test": "vscode-test"
   },
   "devDependencies": {
-    "@types/vscode": "^1.101.0",
     "@types/mocha": "^10.0.10",
     "@types/node": "20.x",
+    "@types/vscode": "^1.101.0",
     "@typescript-eslint/eslint-plugin": "^8.31.1",
     "@typescript-eslint/parser": "^8.31.1",
-    "eslint": "^9.25.1",
-    "typescript": "^5.8.3",
     "@vscode/test-cli": "^0.0.10",
-    "@vscode/test-electron": "^2.5.2"
-  }
+    "@vscode/test-electron": "^2.5.2",
+    "eslint": "^9.25.1",
+    "typescript": "^5.8.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/HexoraStudio/fivem-fxmanifest-snippets.git"
+  },
+  "publisher": "cesarmr"
 }
