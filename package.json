@@ -2,7 +2,7 @@
   "name": "fivem-fxmanifest-snippets",
   "displayName": "Fivem FXManifest Snippets",
   "description": "Snippets for fxmanifest.lua in FiveM",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "engines": {
     "vscode": "^1.101.0"
   },
@@ -58,5 +58,5 @@
     "url": "https://github.com/HexoraStudio/fivem-fxmanifest-snippets.git"
   },
   "publisher": "cesarmr",
-  "logo": "icon.png"
+  "icon": "icon.png"
 }
