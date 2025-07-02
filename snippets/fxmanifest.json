@@ -1,6 +1,6 @@
 {
   "fxmanifest-script": {
-    "prefix": "fxmanifest-script",
+    "prefix": "fxmanifest:script",
     "body": [
       "fx_version 'cerulean'",
       "game 'gta5'",
@@ -10,7 +10,7 @@
       "version '${3:1.0.0}'",
       "",
       "shared_scripts {",
-      "  '${4:config.lua}'",
+      "  '${4:shared/config.lua}'",
       "}",
       "",
       "client_scripts {",
@@ -31,9 +31,8 @@
     "description": "Complete FXManifest for shared/client/server Lua scripts"
   },
   "fxmanifest-mlo": {
-    "prefix": "fxmanifest-mlo",
+    "prefix": "fxmanifest:mlo",
     "body": [
-      "-- FXManifest for an MLO (Map Loader Object)",
       "fx_version 'cerulean'",
       "game 'gta5'",
       "",
@@ -47,7 +46,6 @@
       "  '${4:stream/*.ydr}',",
       "  '${5:stream/*.ybn}',",
       "  '${6:stream/*.ymap}',",
-      "  '${7:other files}'",
       "}",
       "",
       "data_file 'INTERIOR_PROXY_ORDER_FILE' '${8:interiorproxies.meta}'"
